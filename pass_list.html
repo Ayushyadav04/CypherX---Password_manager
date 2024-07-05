@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CypherX - Add Password</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="add_pass.css">
+    <link rel="stylesheet" href="pass_list.css">
+</head>
+
+<body>
+    <header>
+        <button id="toggleBtn" class="toggle-button">
+            <span class="toggle-icon">&#9776;</span>
+        </button>
+        <h1>CypherX</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+    <div class="container">
+        <nav id="sidebar">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="add_pass.html">Add Password</a></li>
+                <li><a href="pass_list.html">See Passwords</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Your Passwords</h2>
+            <table id="password-table">
+                <thead>
+                    <tr>
+                        <th>Website</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="password-data"></tbody>
+            </table>
+            <button id="viewPasswordBtn" class="view-password-btn">View Password</button>
+        </main>
+</body>
+<script src="main.js"></script>
+<script src="login.js"></script>
+<script src="pass_list.js"></script>
+
+</html>

@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#viewPasswordBtn {
+  display: block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #2980b9;
+  }
+}
+
+td button {
+  /* Your button styles here */
+  background-color: rgb(255, 0, 0); /* Red background */
+  color: #fff;        
+  padding: 8px 12px;   
+  border: transparent;
+  border-radius: 10px; 
+  cursor: pointer;   
+}

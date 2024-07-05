@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CypherX - Add Password</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="add_pass.css">
+</head>
+
+<body>
+    <header>
+        <button id="toggleBtn" class="toggle-button">
+            <span class="toggle-icon">&#9776;</span>
+        </button>
+        <h1>CypherX</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+    <div class="container">
+        <nav id="sidebar">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="add_pass.html">Add Password</a></li>
+                <li><a href="pass_list.html">See Passwords</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <main class="content-wrapper">
+            <div class="form-container sign-up">
+                <form id="sign-up-form">
+                    <h1>Add Password</h1>
+                    <input type="text" placeholder="User Name" required>
+                    <input type="text" placeholder="Website" required>
+                    <input type="password" placeholder="Password" required>
+                    <h5><span id="added"></span></h5>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="login.js"></script>
+<script src="add_pass.js"></script>
+
+</html>
